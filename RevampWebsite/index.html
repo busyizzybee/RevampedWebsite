@@ -31,7 +31,7 @@
                   All products
                 </a>
               
-                <ul class="dropdown-menu dropdown-menu-end border-0 shadow px-2 pb-4 show">
+                <ul class="dropdown-menu dropdown-menu-end border-0 px-1 pb-2">
 
                   <div class="col pt-3 pt-sm-4 px-2 px-lg-3">
 
@@ -46,9 +46,9 @@
                     </ul>
 
                     <ul>
-                      <li><a class="dropdown-item px-2" href="">Eye Liner</a></li>
-                      <li><a class="dropdown-item px-2" href="">Eyebrow Pencil</a></li>     
-                      <li><a class="dropdown-item px-2" href="">Eye Shadow</a></li>         
+                      <li><a class="dropdown-item px-1" href="">Eye Liner</a></li>
+                      <li><a class="dropdown-item px-1" href="">Eyebrow Pencil</a></li>     
+                      <li><a class="dropdown-item px-1" href="">Eye Shadow</a></li>         
 
                     </ul>
 
@@ -68,8 +68,8 @@
                     </ul>
 
                     <ul>
-                      <li><a class="dropdown-item px-2" href="">Lipsticks</a></li>
-                      <li><a class="dropdown-item px-2" href="">Lip Tint</a></li>     
+                      <li><a class="dropdown-item px-1" href="">Lipsticks</a></li>
+                      <li><a class="dropdown-item px-1" href="">Lip Tint</a></li>     
                               
                     </ul>
 
@@ -90,8 +90,8 @@
                     </ul>
 
                     <ul>
-                      <li><a class="dropdown-item px-2" href="">Foundation</a></li>
-                      <li><a class="dropdown-item px-2" href="">Blush</a></li>     
+                      <li><a class="dropdown-item px-1" href="">Foundation</a></li>
+                      <li><a class="dropdown-item px-1" href="">Blush</a></li>     
                               
                     </ul>
 
@@ -122,6 +122,7 @@
           <img src="Images/Logoo.png" alt="Logo" width="50" height="50">
 
         </a>
+        
         <div class="collapse navbar-collapse" id="user-navigation">
         <ul class="navbar-nav">
           
@@ -143,18 +144,130 @@
           </li>
         
         </ul>
-        
+
       </div>
-      
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-navigation" aria-controls="main-navigation" aria-expanded="false" aria-label="Toggle navigation">
+       <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
           
-        <span class="navbar-toggler-icon"></span>
-       
-        </button>
-      
+      <span class="navbar-toggler-icon"></span>
+     
+      </button>
+
       </div>
     
     </nav>
+
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+
+      <div class="offcanvas-header">
+
+        <a class="navbar-brand d-flex align-items-center" href="#">
+
+          <img src="Images/Logoo.png" alt="Logo" width="80" height="80">
+
+        </a>
+
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+
+      </div>
+
+      <div class="offcanvas-body">
+
+        <div class="accordion accordion-flush" id="accordionExample">
+
+          <div class="accordion-item border-0">
+
+            <h2 class="accordion-header">
+
+              <a class="accordion-link d-flex collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+
+                <img src="Images/Icons/eye-outline-with-lashes.png" alt="EyesIcon" width="70" height="70" >
+                <h5>EYES</h5>
+
+              </a>
+
+            </h2>
+
+            <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+
+              <div class="accordion-body">
+
+                <ul>
+                  <li><a class="dropdown-item" href="">Eye Liner</a></li>
+                  <li><a class="dropdown-item" href="">Eyebrow Pencil</a></li>     
+                  <li><a class="dropdown-item" href="">Eye Shadow</a></li>         
+
+                </ul>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="accordion-item border-0">
+
+            <h2 class="accordion-header">
+
+              <a class="accordion-link d-flex  collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseOne">
+
+                <img src="Images/Icons/lips.png" alt="LipsIcon" width="70" height="70" >
+                <h5>LIPS</h5>
+
+              </a>
+
+            </h2>
+
+            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+
+              <div class="accordion-body">
+
+                <ul>
+                  <li><a class="dropdown-item" href="">Lipsticks</a></li>
+                  <li><a class="dropdown-item" href="">Lip Tint</a></li>     
+                          
+                </ul>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="accordion-item border-0">
+
+            <h2 class="accordion-header">
+
+              <a class="accordion-link d-flex collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseOne">
+
+                <img src="Images/Icons/face.png" alt="FaceIcon" width="70" height="70" >
+                <h5>FACE</h5>
+
+              </a>
+
+            </h2>
+
+            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+
+              <div class="accordion-body">
+
+                <ul>
+                  <li><a class="dropdown-item px-2" href="">Lipsticks</a></li>
+                  <li><a class="dropdown-item px-2" href="">Lip Tint</a></li>     
+                          
+                </ul>
+          
+              
+              </div>
+              
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
 
       <div id="Carousel" class="carousel slide">
 
