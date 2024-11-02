@@ -4,8 +4,23 @@
     box-sizing: border-box;
 }
 
+body {
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
 .container{
-    border-radius: 10px;
+    border-radius: 11px;
     box-shadow: 1px 2px 4px rgba(212, 116, 164, 0.4);
 }
 
@@ -20,6 +35,9 @@
   
   }
 
+.navbar{
+    background-color: white;
+}
 .navbar-brand{
     margin-right: 2em !important;
 }
@@ -131,3 +149,40 @@
     }
    
 }
+
+
+/*about us page*/
+
+#about-us{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.5em;
+   text-align: center ;
+   margin-top: 1.5%;
+}
+
+#about-us2{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5em;
+   text-align: center ;
+   margin-bottom: 1%;
+}
+
+#bout-us_3{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 1.1em;
+    text-align: center;
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 50%; 
+    padding: 15px;     
+}
+
