@@ -1,0 +1,189 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.container{
+    border-radius: 10px;
+    box-shadow: 1px 2px 4px rgba(212, 116, 164, 0.4);
+}
+
+.overlay {
+
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.6);
+  
+  }
+
+.navbar{
+    background-color: white;
+}
+.navbar-brand{
+    margin-right: 2em !important;
+}
+
+.nav-link{
+    margin: 1em !important;
+    color:  #821131;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 400;
+}
+
+.dropdown-menu ul{
+    list-style: none;
+    display: table;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+.dropdown-menu li a{
+    padding: 1em;
+    align-items: center;
+    text-align: center
+}
+
+.dropdown-item h5{
+    text-align: center;
+}
+
+.accordion-link{
+    color:  #821131;
+    text-transform: uppercase;
+    align-items: center;
+    text-align: center;
+    font-weight: 400;
+    text-decoration: none;
+    
+}
+
+.accordion-link img{
+    margin-left: 2em;
+    
+}
+
+.accordion-link h5{
+    margin-left: 2em !important;
+    text-transform: uppercase;
+    align-items: center;
+    text-align: center;
+    font-weight: 400;
+    text-decoration: none;
+    
+}
+
+.accordion-item{
+    margin: 2em !important;
+}
+
+.accordion-body>ul{
+    list-style: none;
+    display: table;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+.accordion-body li a{
+    padding: 1em;
+    align-items: center;
+    text-align: center
+
+}
+
+.accordion-body a{
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+#user-navigation{
+    margin-left: 2em !important;
+    justify-content: flex-end;
+}
+
+@media screen and (min-width: 992px) {
+
+    .dropdown-menu.show{
+        display: flex;
+    }
+}
+
+@media screen and (min-width: 766px) {
+
+    .dropdown:hover .dropdown-menu{
+        display: flex;
+        margin-top: 0;
+        pointer-events: initial;
+        opacity: 1;
+        transition: opacity .55s ease-in-out;
+    }
+    
+    .dropdown-menu{
+        display: flex;
+        opacity: 0;
+        pointer-events: none;
+        transition: opacity .55s ease-in-out;
+    }
+
+    .dropdown-menu.show{
+        display: flex;
+    }
+   
+}
+
+/*about us page*/
+
+#about-us{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.5em;
+   text-align: center ;
+   margin-top: 1.5%;
+}
+
+#about-us2{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5em;
+   text-align: center ;
+   margin-bottom: 1%;
+}
+
+#bout-us_3{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 1.1em;
+    text-align: center;
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 50%; 
+    padding: 15px;     
+}
+
+
