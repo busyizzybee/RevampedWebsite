@@ -268,7 +268,121 @@
       </div>
 
     </div>
+<div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
 
+      <div class="modal-dialog modal-login">
+
+        <div class="modal-content">
+
+          <div class="modal-header">
+
+            <h4 class="modal-title">Log In</h4>
+
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+
+          </div>
+
+          <div class="modal-body">
+
+            <form action="index.html" method="post">
+
+              <div class="form-group">
+
+                <i class="fa-solid fa-user"></i>
+
+                <input type="text" class="form-control" placeholder="Username" required="required">
+
+              </div>
+
+              <div class="form-group">
+
+                <i class="fa-solid fa-lock"></i>
+
+                <input type="password" class="form-control" placeholder="Password" required="required">		
+
+              </div>
+
+                        <div class="form-group bottom-action clearfix">
+
+                            <label class="form-check-label"><input type="checkbox"><span class="checkmark"></span> Remember me</label>
+
+                            <a href="#" class="forgot-link">Forgot Password?</a>
+
+              </div>
+
+              <div class="form-group">
+
+                <input type="submit" class="btn btn-primary btn-block btn-lg" value="Log In">
+
+              </div>
+
+            </form>
+
+          </div>
+
+          <div class="modal-footer">Don't have an account? <a href="#myModal2" class="trigger-btn" data-bs-toggle="modal">Sign Up</a></div>
+        
+        </div>
+
+      </div>
+
+    </div>
+    
+    <div class="modal fade" id="myModal2" aria-hidden="true">
+
+            <div class="modal-dialog modal-login">
+
+              <div class="modal-content">
+
+                <div class="modal-header">
+
+                  <h4 class="modal-title">Sign Up</h4>
+
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+
+                </div>
+
+                <div class="modal-body">
+
+                  <form action="/examples/actions/confirmation.php" method="post">
+
+                    <div class="form-group">
+
+                        <input type="text" class="form-control" placeholder="Create username" required="required">
+
+                    </div>
+
+                    <div class="form-group">
+
+                        <input type="password" class="form-control" id="crpw" placeholder="Create Password" required="required">	
+
+                    </div>
+
+                    <div class="form-group">
+
+                        <input type="password" class="form-control" id="conpw" placeholder="Confirm Password" required="required">
+
+                        <div class="registrationFormAlert" style="color: green;"	id="CheckPasswordMatch"></div>		
+
+                    </div>
+
+                    <div class="form-group">
+
+                        <button type="submit" class="btn btn-primary btn-block btn-lg" id="reg" style="color: #d11e51;">Register</button>
+
+                    </div>
+
+                </form>
+
+                </div>
+
+                <div class="modal-footer">Already have an account? <a href="#myModal" class="trigger-btn" data-bs-toggle="modal">Log In</a></div>
+
+              </div>
+
+            </div>
+
+          </div>
       <div id="Carousel" class="carousel slide">
 
   <div class="carousel-indicators">
