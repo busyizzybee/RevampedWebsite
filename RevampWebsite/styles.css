@@ -361,3 +361,33 @@ ul {
     transition: all 0.3s ease;
 }
 /* ---------------END--------------- */
+
+/*Content Card CSS*/
+/* ---------------START--------------- */
+
+.card{
+    border: none; 
+    transform: scale(0.85);
+    transition: 0.8s ease;
+    
+}
+
+.card:hover{
+    transform: scale(0.9);
+}
+
+.card-img-overlay{
+    padding-top: 60%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    transform: scale(1.5);
+
+}
+
+.category-header{
+    text-align: center;
+}
+
+
+/* ---------------END--------------- */
